@@ -26,7 +26,7 @@ public class Gmail {
 			//driver.findElement(By.xpath("//*[@id=\"gb_71\"]")).click();
 	driver.findElement(By.xpath("//*[@id=\"yDmH0d\"]")).click();
 	driver.findElement(By.xpath("//*[@id=\"gb_71\"]")).click();
-	}
+	} 
 
 }
 //implicit;by default 3000ms wait//
