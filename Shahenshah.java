@@ -12,7 +12,7 @@ public class Shahenshah {
 	WebDriver driver=new FirefoxDriver();
 	driver.get("https://www.facebook.com/");
 	//WebElement shah=driver.findElement(By.name("email"));
-	//shah.sendKeys("8951101707");
+	//shah.sendKeys("******");
 	//Thread.sleep(4000);
 WebElement shah=driver.findElement(By.xpath("//*[@id=\"u_0_9\"]"));
 shah.click();
