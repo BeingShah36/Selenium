@@ -14,11 +14,11 @@ public class Gmail {
 	ChromeDriver driver=new ChromeDriver();
 	WebDriverWait wait=new WebDriverWait(driver,30);
 	driver.get("https://accounts.google.com/");
-	driver.findElement(By.xpath("//*[@id=\"identifierId\"]")).sendKeys("shahbazalam.sayyad@gmail.com");
+	driver.findElement(By.xpath("//*[@id=\"identifierId\"]")).sendKeys("********.com");
 	driver.findElement(By.xpath("//*[@id=\"identifierNext\"]/content/span")).click();
 	WebElement path=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@id=\"password\"]/div[1]/div/div[1]/input")));
 	
-	path.sendKeys("8861237482");
+	path.sendKeys("********");
 	driver.findElement(By.xpath("//*[@id=\"passwordNext\"]/content")).click();
 	//WebElement shah=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@id=\"yDmH0d\"]")));
 			//shah.click();
